@@ -1,0 +1,595 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family: "Sora",Arial, Helvetica, sans-serif;
+}
+#main-container{
+    width: 100%;
+    /* height: 100vh; */
+}
+/* ---------------------------nav----------------------- */
+#header{
+    width: 100vw;
+    height: 100px;
+    border: 1px solid #939ca7;
+    position: sticky !important;
+    top: 0%;
+    background: white;
+}
+#header>article{
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    border: ;
+    flex-direction: row;
+    align-items: center;
+
+}
+#header>article>.div{
+    height: inherit;
+}
+#header > article > .first{
+    flex-basis: 68%;
+    display: flex;
+    align-items: center;
+}
+#header > article > .first > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+#header > article > .first >ul > li:first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+#header > article > .first >ul > li:first-child > span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+#header > article > .first >ul > li:first-child > img{
+    width: 30px;
+    height: 15px;
+}
+#header > article > .first >ul > .li{
+    font-size: 1rem;
+    color: rgb(68, 67,67);
+    cursor: pointer;
+}
+#header > article > .second{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header > article > .second >button{
+    width: 170px;
+    height: 45px;
+    color: #fff;
+    background: #0099ff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#header > article > .second >button:hover{
+    background:#0065a8;
+    color: white;
+    border: 1px solid #0099ff;
+    cursor: pointer;
+}
+/* ----------------------------section-------------------------------- */
+
+section{
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+}
+section > div{
+    height: 100%;
+    padding: 50px;
+    border-radius: 1rem;
+}
+section > .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+}
+.first > h2{
+    font-size: 40px;
+}
+/* .first h5{
+    font-size: 20px;
+    color: gray; */
+.first > button{
+    width: 35%;
+    height: 50px;
+    border-radius: 1rem;
+    background: #0099ff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+
+}
+/* button:hover{
+    background: #3201eb;
+    color: white;
+    border: 1px solid #0099ff;
+    cursor: pointer;
+} */
+/* section > .first>h1{
+    font-weight: bold;
+} */
+section > .second > img{
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+/* --------------------------2nd section-------------------------- */
+
+#section{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section > div{
+    width: 40%;
+    height: 50px;
+    font-size: 1.75rem; 
+    margin: 10px;
+    padding: 0;
+}
+#section > div >p{
+    text-align: center;
+}
+#section > .sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 14px;
+    box-shadow: none;
+    gap: 8px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+    margin: 0 auto;
+    padding: 0 !important;
+}
+.x > input{
+    line-height: 2rem !important;
+    height: auto;
+    padding: 0.6rem 3.2rem;
+    border: none;
+    font-size: medium;
+}
+.x > input:hover{
+    cursor: pointer;
+    border: 1px solid #0099ff;
+}
+.y > button{
+    margin: 0;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    width: 60%;
+    height: 50px;
+    border-radius: 1rem;
+    background: #0099ff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.container{
+    width: 100%;
+    background: #264ff5;
+    height: 400px;
+    /* border: 1px solid black; */
+}
+.main{
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+}
+.main > h1{
+    width: 70%;
+    font-size: 90px;
+    padding-left: 20px;
+    margin-left: 20%;
+    color: white;
+}
+.main > p{
+    width: 85%;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: #999999;
+}
+.se{
+    padding-top: 5px;
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    /* border: 2px solid black; */
+    width: 80%;
+    display: flex;
+    flex-direction: row !important;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.f{
+    border-radius: 20px;
+    color: white;
+    background: #7d7d7d;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+strong{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 2.5rem;
+}
+p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.25rem;
+}
+.f>ul{
+    padding-left: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.25rem;
+}
+.f>ul>li{
+    list-style: none;
+    text-decoration: none;
+}
+span{
+    padding: 10px;
+}
+.f>a{
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+}
+.s{
+    border-radius: 20px;
+    color: white;
+    background: #0079ae;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.s>ul{
+    padding-left: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.25rem;
+}
+.s>ul>li{
+    list-style: none;
+    text-decoration: none;
+}
+.s>a{
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+}
+.se2{
+    padding-top: 5px;
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex2{
+    padding-top: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row !important;
+    gap: 20px;
+    margin-top: 0;
+}
+.f2{
+    border-radius: 20px;
+    color: white;
+    background: #3201eb;
+    width: 50%;
+}
+.f2>ul{
+    padding-left: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.25rem;
+}
+.f2>ul>li{
+    list-style: none;
+}
+.f2>a{
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+}
+.s2{
+    border-radius: 20px;
+    color: white;
+    background: #8160ff;
+    width: 50%;
+}
+.s2>ul{
+    padding-left: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.25rem;
+}
+.s2>ul>li{
+    list-style: none;
+}
+.s2>a{
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+}
+.third{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7d7d7d;
+}
+.third>.sign{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    padding: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.y2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+    margin: 0 auto;
+    padding: 0 !important;
+    gap: 10px;
+} 
+.y2> input{
+    line-height: 2rem !important;
+    height: auto;
+    padding: 0.6rem 3.2rem;
+    border: none;
+    font-size: medium;
+    border-radius: 16px;
+}
+.y2> input:hover{
+    cursor: pointer;
+    border: 1px solid #0099ff;
+}
+.y2>#btn{
+    margin: 0;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    width: 32%;
+    height: 50px;
+    border-radius: 1rem;
+    background: #0099ff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.time{
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+h5{
+    color: #a8a8a8;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.25rem;
+    /* font-style: normal; */
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+}
+h4{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -1.44px;
+}
+.i>.img{
+    width: 660px;
+    height: 650px;
+    border-radius: 15px;
+}
+.a{
+    /* border: 1px solid black; */
+    padding-left: 56px;
+}
+.d{
+    margin-top: 100px;
+}
+.third>.b{
+    margin: 0;
+}
+#ss{
+    width: 100%;
+    height: 350px;
+}
+.pic{
+    width: 100%;
+    height: 300px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic>.col{
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid wheat; */
+}
+.pic>.col>.o{
+    width: 76%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* border: 1px solid saddlebrown; */
+    text-align: center;
+}
+.pic>.col>.o>.q{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.pic>.col>.o>.q>.userimg{
+    /* border: 1px solid wheat; */
+    width: 200px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 10px;
+}
+.pic>.col>.o>.q>.userimg>.g{
+    width: 158px;
+    height: 40px;
+    border-radius: 60%;
+    margin-right: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+.g>img{
+    /* width: 100%;
+    border-radius: 100%; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid wheat; */
+    width: 542px;
+    align-items: flex-start;
+}
+.p{
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+}
+.p1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    color: gray;
+}
+.p2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.75rem;
+    color: white;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy>.copyright{
+    /* border: 1px solid black; */
+    width: 60%;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: -0.08px;
+}
+button:hover{
+    background: #0065a8;
+    border: 1px solid #0099ff;
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
+button{
+    color: white;
+}
+#btn:hover{
+    background: #0065a8;
+}
+#lastsection{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+}
+
+#lastsection > #last-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    border: 1px solid black;
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    padding-bottom: 13%;
+}
+#last-section >img{
+    height: 15%;
+    width: 8%;
+}
+#lastsection >div> h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding-left: 25%;
+    /* color: white; */
+}
+#lastsection >div{
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 0%;
+    margin: 0;
+    padding: 0%;
+}
